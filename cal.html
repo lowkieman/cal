@@ -10,36 +10,41 @@
 <body>
     <div>
         <table>
+            <thead>
+                <th>cal 1.0</th>
+            </thead>
             <tbody>
+                <tr><td colspan="4"><input type="text" id="display" readonly></td></tr>
                 <tr>
-                    <tr><td colspan="4"><input type="number" readonly></td></tr>
-                    <td><button id="kala" type="reset" onclick="reset()">c</button></td>
-                    <td><button id="kala" onclick="divide()">÷</button></td>
-                    <td><button id="kala" onclick="multiply()">×</button></td>
-                    <td><button id="kala" onclick="del()">del</button></td>
+                    <td><button id="uh" onclick="clearDisplay()">c</button></td>
+                    <td><button id="uh" onclick="appendToDisplay('/')">÷</button></td>
+                    <td><button id="uh" onclick="appendToDisplay('*')">x</button></td>
+                    <td></td>
                 </tr>
                 <tr>
-                    <td><button onclick="operate()">7</button></td>
-                    <td><button onclick="operate()">8</button></td>
-                    <td><button onclick="operate()">9</button></td>
-                    <td><button id="kala" onclick="sub()">—</button></td>
+                    <td><button onclick="appendToDisplay('7')">7</button></td>
+                    <td><button onclick="appendToDisplay('8')">8</button></td>
+                    <td><button onclick="appendToDisplay('9')">9</button></td>
+                    <td><button id="uh" onclick="appendToDisplay('-')">-</button></td>
                 </tr>
                 <tr>
-                    <td><button onclick="operate()">4</button></td>
-                    <td><button onclick="operate()">5</button></td>
-                    <td><button onclick="operate()">6</button></td>
-                    <td><button id="kala" onclick="add()">+</button></td>
+                    <td>
+                        <button onclick="appendToDisplay('4')">4</button></td>
+                    <td><button onclick="appendToDisplay('5')">5</button></td>
+                    <td><button onclick="appendToDisplay('6')">6</button></td>
+                    <td><button id="uh" onclick="appendToDisplay('+')">+</button></td>
                 </tr>
                 <tr>
-                    <td><button onclick="operate()">1</button></td>
-                    <td><button onclick="operate()">2</button></td>
-                    <td><button onclick="operate()">3</button></td>
-                    <td rowspan="2"><button id="las" onclick="equal()">=</button></td>
+                    <td><button onclick="appendToDisplay('1')">1</button></td>
+                    <td><button onclick="appendToDisplay('2')">2</button></td>
+                    <td><button onclick="appendToDisplay('3')">3</button></td>
+                    <td rowspan="2"><button class="uh"  onclick="calculate()">=</button></td>
                 </tr>
                 <tr>
-                    <td><button onclick="per()">%</button></td>
-                    <td><button onclick="operate()">0</button></td>
-                    <td><button onclick="float()">.</button></td>
+                    <td><button onclick="appendToDisplay('%')">%</button></td>
+                    <td><button onclick="appendToDisplay('0')">0</button></td>
+                    <td><button onclick="appendToDisplay('.')">.</button></td>
+                    <td></td>
                 </tr>
             </tbody>          
         </table>
