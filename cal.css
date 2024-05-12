@@ -56,7 +56,6 @@ input{
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
     direction: rtl;
-
 }
 input:hover{
     background-color: white;
@@ -74,11 +73,9 @@ thead{
         margin: 1px auto;
         background-image: radial-gradient(blue, red, yellow);
         background-repeat:repeat;
-        
     }
     table{
         max-width: 100%;
-
     }
-    
+
 }
