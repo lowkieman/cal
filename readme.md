@@ -7,13 +7,13 @@
 
 ## Snippets
 - General View
-<img src="images/cal 1.png" style="width: 100px; height: 100px; border: 5px solid green;">
+<img src="Images/cal 1.png" style="width: 200px; height: 100px; border: 5px solid green;">
 
 - When carrying out Arithmetic Operation
-<img src="images/cal 2.png" style="width: 100px; height: 100px; border: 5px solid green;">
+<img src="Images/cal 2.png" style="width: 200px; height: 100px; border: 5px solid green;">
 
 - The output
-<img src="images/cal 3.png" style="width: 100px; height: 100px; border: 5px solid green;">
+<img src="Images/cal 3.png" style="width: 200px; height: 100px; border: 5px solid green;">
 
 ## Author
 - **`Wilfred Mamboleo Tinega`**
